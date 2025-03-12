@@ -1,0 +1,36 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #form{
+        margin-top: 200px;
+
+    }
+
+h1{
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+    .form-label{
+        text-align: left;
+    }
+
+    .btn-primary{
+        background-color: rgb(66, 45, 255);
+        width: 40%;
+    }
+
+    #img_lado {
+        object-fit: cover;
+        margin-top: 10vh;
+        margin-right: 10vh;
+        width: 650px;
+        height: 650px;
+    }
+
+    .form-control{
+        border-radius: 10px;
+    }
