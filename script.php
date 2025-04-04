@@ -1,4 +1,4 @@
 <?php
     $nome = $_GET['nome'];
-    echo $nome;
+    echo "Seu nome é ". $nome;
 ?>
