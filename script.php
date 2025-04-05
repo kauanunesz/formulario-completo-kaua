@@ -45,7 +45,6 @@ $sistemaTexto = $sistemas[$sistema] ?? 'Não selecionado';
         <li class="list-group-item"><strong>Email:</strong> <?= htmlspecialchars($email) ?></li>
         <li class="list-group-item"><strong>Idade:</strong> <?= htmlspecialchars($idade) ?></li>
         <li class="list-group-item"><strong>Data de Nascimento:</strong> <?= htmlspecialchars($dataNascimento) ?></li>
-        <li class="list-group-item"><strong>Senha:</strong> <?= htmlspecialchars($senha) ?></li>
         <li class="list-group-item"><strong>Nível de Experiência:</strong> <?= htmlspecialchars($nivelXP) ?></li>
         <li class="list-group-item">
             <strong>Habilidades:</strong>
