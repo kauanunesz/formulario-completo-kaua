@@ -1,5 +1,5 @@
 <?php
-// Tratando os dados recebidos
+
 $nome = $_GET['nome'] ?? 'Não informado';
 $email = $_GET['email'] ?? 'Não informado';
 $idade = $_GET['Idade'] ?? 'Não informado';
@@ -9,7 +9,7 @@ $nivelXP = $_GET['nivelXP'] ?? 'Não informado';
 $habilidades = $_GET['hab'] ?? [];
 $sistema = $_GET['sistema'] ?? 'Não informado';
 
-// Convertendo valor do sistema operacional
+
 $sistemas = [
     '1' => 'Windows',
     '2' => 'Linux',
